@@ -11,7 +11,22 @@ Investigación:
 
 Pilas
 
-Una pila es un contenedor de nodos con dos operaciones básicas: push (apilar) y pop (desapilar). "Push" añade un nodo a la parte superior de la pila, y "pop" devuelve y elimina el nodo superior. Una metáfora común es una pila de platos en una cafetería: solo el plato superior es accesible, y al añadir nuevos platos, estos se colocan en la parte superior de la pila.
+Una pila (stack en inglés) es una lista ordenada o estructura de datos que permite almacenar y recuperar datos, siendo el modo de acceso a sus elementos de tipo LIFO (del inglés Last In, First Out, «último en entrar, primero en salir»). Esta estructura se aplica en multitud de supuestos en el área de la informática debido a su simplicidad y capacidad de dar respuesta a numerosos procesos.
+
+Para el manejo de los datos cuenta con dos operaciones básicas: apilar (push), que coloca un objeto en la pila, y su operación inversa, retirar (o desapilar, pop), que retira el último elemento apilado.
+
+En cada momento solamente se tiene acceso a la parte superior de la pila, es decir, al último objeto apilado (denominado TOS, Top of Stack en inglés). La operación retirar permite la obtención de este elemento, que es retirado de la pila permitiendo el acceso al anterior (apilado con anterioridad), que pasa a ser el último, el nuevo TOS.
+
+Las pilas suelen emplearse en los siguientes contextos:
+
+Evaluación de expresiones en notación postfija (notación polaca inversa).
+Reconocedores sintácticos de lenguajes independientes del contexto.
+Implementación de recursividad.
+En un sistema operativo cada proceso tiene un espacio de memoria (pila) para almacenar valores y llamadas a funciones.
+
+Una pila acotada es una pila limitada a un tamaño máximo impuesto en su especificación.
+
+Por analogía con objetos cotidianos, una operación apilar equivaldría a colocar un plato sobre una pila de platos, y una operación retirar equivaldría a retirarlo.
 
 Operaciones:
 
@@ -109,7 +124,9 @@ Ejecucion:
 
 Colas
 
-Una cola es un tipo de dato abstracto caracterizado por ser una secuencia de elementos donde la inserción se realiza por un extremo y la extracción por el otro, siguiendo el principio FIFO (First In, First Out). Las colas se utilizan en sistemas informáticos, transportes y operaciones de investigación para almacenar y procesar datos secuencialmente.
+Una cola (también llamada fila) es un tipo de dato abstracto, caracterizada por ser una secuencia de elementos en la que la operación de inserción push se realiza por un extremo y la operación de extracción pull por el otro. También se le llama estructura FIFO (del inglés First In First Out), debido a que el primer elemento en entrar será también el primero en salir.
+
+Las colas se utilizan en sistemas informáticos, transportes y operaciones de investigación (entre otros), donde los objetos, personas o eventos son tomados como datos que se almacenan y se guardan mediante colas para su posterior procesamiento. Este tipo de estructura de datos abstracta se implementa en lenguajes orientados a objetos mediante clases, en forma de listas enlazadas.
 
 Operaciones:
 
