@@ -1,4 +1,4 @@
-Por José Antonio Guerrero Lazcano
+
 Introducción
 
 Las estructuras de datos son esenciales en la informática para organizar y manipular información eficientemente. Entre las más comunes se encuentran las pilas, listas y colas. Las pilas son estructuras lineales que siguen el principio LIFO (Last In, First Out), donde el último elemento insertado es el primero en salir. Esto las hace ideales para tareas como la reversión de cadenas o la implementación de sistemas de historial en aplicaciones.
