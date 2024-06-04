@@ -37,6 +37,10 @@ Desapilar (pop): Lee y retira el elemento superior de la pila.
 Leer último (top o peek): Lee el elemento superior sin retirarlo.
 Vacía (empty): Devuelve verdadero si la pila está vacía y falso si contiene elementos.
 
+
+![download](https://github.com/AntonioGuerrer0/TEMA-3-EVIDENCIA-2/assets/161759650/e3105b0c-99d8-4778-9a4a-1fa6e72303c7)
+
+
 Codigo:
     
     package Pilas;
@@ -81,6 +85,9 @@ Agregar al inicio: Añade una entidad al inicio de la lista.
 Agregar al final: Añade una entidad al final de la lista.
 Determinar el primer elemento (cabeza): Obtiene el primer elemento de la lista.
 Referirse a la cola de la lista: Obtiene la lista que consiste en todos los elementos excepto el primero.
+
+![download](https://github.com/AntonioGuerrer0/TEMA-3-EVIDENCIA-2/assets/161759650/18bb9add-b75c-492e-9373-f9990bdc702f)
+
 
 Codigo:
 
@@ -134,6 +141,10 @@ Crear: Crea una cola vacía.
 Encolar: Añade un elemento al final de la cola.
 Desencolar: Elimina el primer elemento de la cola.
 Frente (front): Devuelve el primer elemento de la cola.
+
+
+![download](https://github.com/AntonioGuerrer0/TEMA-3-EVIDENCIA-2/assets/161759650/7b36ad31-33af-4e53-9bbb-3fe620403404)
+
 
 Codigo:
 
